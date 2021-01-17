@@ -1,0 +1,8 @@
+package generic;
+
+public class Plastic {
+
+	public String to String() {
+		return "재료는 Plastic 입니다.;
+	}
+}

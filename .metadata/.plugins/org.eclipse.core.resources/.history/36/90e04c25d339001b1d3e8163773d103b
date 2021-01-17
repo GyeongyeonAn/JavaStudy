@@ -1,0 +1,10 @@
+package stream.coffee;
+
+public class Milk extends Decorator{
+
+	public Milk(Coffee coffee) {
+		super(coffee);
+		// TODO Auto-generated constructor stub
+	}
+
+}

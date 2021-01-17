@@ -1,0 +1,14 @@
+package object;
+
+public class ToStringTest {
+
+class Book {
+	String title;
+	String author;
+}
+	
+	public static void main(String[] args) {
+
+	}
+
+}

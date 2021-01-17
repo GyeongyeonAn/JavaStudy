@@ -1,0 +1,25 @@
+package chapter8;
+
+public class Sonata extends Car{
+
+	@Override
+	protected void start() {
+		System.out.println();
+	}
+
+	@Override
+	protected void drive() {
+		
+	}
+
+	@Override
+	protected void stop() {
+		
+	}
+
+	@Override
+	protected void turnOff() {
+		
+	}
+
+}

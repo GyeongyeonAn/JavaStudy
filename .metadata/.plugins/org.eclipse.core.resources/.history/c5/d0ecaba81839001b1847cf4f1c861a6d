@@ -1,0 +1,15 @@
+package exception;
+
+import java.io.FileInputStream;
+
+public class ThrowsException {
+
+	public Class loadClass(String fileName, String className) {
+		FileInputStream fis = new FileInputStream
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

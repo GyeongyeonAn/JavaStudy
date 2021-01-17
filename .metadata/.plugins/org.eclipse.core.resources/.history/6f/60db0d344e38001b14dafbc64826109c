@@ -1,0 +1,15 @@
+package stream;
+
+import java.util.Arrays;
+
+public class ReduceTest {
+
+	public static void main(String[] args) {
+
+		String[] greetings = {"æ»≥Á«œººø‰~~~", "Hello", "Good morning", "π›∞©Ω¿¥œ¥Ÿ."};
+		
+		Arrays.stream(greetings).reduce(0, accumulator)
+		
+	}
+
+}

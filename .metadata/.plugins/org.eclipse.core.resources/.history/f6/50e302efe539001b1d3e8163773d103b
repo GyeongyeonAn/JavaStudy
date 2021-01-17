@@ -1,0 +1,12 @@
+package thread;
+
+public class InterruptTest extends Thread{
+
+	public void run() {
+		int i;
+	}
+	public static void main(String[] args) {
+
+	}
+
+}

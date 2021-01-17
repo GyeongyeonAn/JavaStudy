@@ -1,0 +1,10 @@
+package stream.coffee;
+
+public class Latte extends Decorator {
+
+	@Override
+	public void brewing() {
+
+	}
+
+}

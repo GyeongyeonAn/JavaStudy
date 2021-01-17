@@ -1,0 +1,15 @@
+package chapter8;
+
+public class CompleteCalc extends Calculater{
+
+	@Override
+	public int times(int num1, int num2) {
+		return num1 * num2;
+	}
+
+	@Override
+	public int divide(int num1, int num2) {
+		return 0;
+	}
+
+}

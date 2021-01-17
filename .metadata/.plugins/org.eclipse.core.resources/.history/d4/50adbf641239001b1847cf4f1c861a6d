@@ -1,0 +1,10 @@
+package exception;
+
+public class ArrayExceptionTest {
+
+	public static void main(String[] args) {
+
+		int[] arr = new int[5];
+	}
+
+}

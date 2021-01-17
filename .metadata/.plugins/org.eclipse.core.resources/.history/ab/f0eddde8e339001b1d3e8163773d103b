@@ -1,0 +1,9 @@
+package thread;
+
+public class JoinTest extends Thread {
+
+	public static void main(String[] args) {
+
+	}
+
+}

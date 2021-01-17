@@ -1,0 +1,13 @@
+package collection;
+
+class MyStack {
+
+	private ArrayList<String> arrayStack = new ArrayList<String>();
+}
+
+public class StackTest {
+	
+	public static void main(String[] args) {
+		
+	}
+}

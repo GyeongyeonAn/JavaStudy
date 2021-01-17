@@ -1,0 +1,11 @@
+package bookshelf;
+
+public class BookShelfTest {
+
+	public static void main(String[] args) {
+
+		Queue bookQueue = new BookShelf();
+		bookQueue.enQueue("ลยน้ป๊ธฦ1");
+	}
+
+}

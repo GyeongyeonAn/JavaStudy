@@ -1,0 +1,30 @@
+package chapter8;
+
+public class Calculater implements Calc{
+
+	@Override
+	public int add(int num1, int num2) {
+		return 0;
+	}
+
+	@Override
+	public int substract(int num1, int num2) {
+		return 0;
+	}
+
+	@Override
+	public int times(int num1, int num2) {
+		return 0;
+	}
+
+	@Override
+	public int divide(int num1, int num2) {
+		return 0;
+	}
+
+	@Override
+	public String stringAdd(String s1, String s2) {
+		return null;
+	}
+
+}

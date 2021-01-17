@@ -1,0 +1,13 @@
+package collection.set;
+
+public class MemberHashSetTest {
+
+	public static void main(String[] args) {
+
+		MemberHashSet manager = new MemberHashSet();
+		Member memberLee = new Member(100, "Lee");
+		Member memberLee = new Member(100, "Kim");
+		Member memberLee = new Member(100, "Shin");
+	}
+
+}

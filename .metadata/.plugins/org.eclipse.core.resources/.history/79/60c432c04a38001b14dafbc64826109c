@@ -1,0 +1,15 @@
+package stream;
+
+import java.util.List;
+
+public class ArrayListStreamTest {
+
+	public static void main(String[] args) {
+
+		List<String> sList = new AttayList<String>();
+		sList.add("Tomas");
+		sList.add("Tomas");
+		sList.add("Tomas");
+	}
+
+}

@@ -1,0 +1,9 @@
+package chapter12;
+
+public class TravelCustomer {
+
+	private String name;
+	private int age;
+	
+
+}

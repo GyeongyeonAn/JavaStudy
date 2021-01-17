@@ -1,0 +1,25 @@
+package chapter8;
+
+public class Sonata extends Car{
+
+	@Override
+	protected void start() {
+		System.out.println("Sonata Ω√µø¿ª ƒ’¥œ¥Ÿ.");
+	}
+
+	@Override
+	protected void drive() {
+		System.out.println("Sonata ¥ﬁ∏≥¥œ¥Ÿ.");
+	}
+
+	@Override
+	protected void stop() {
+		System.out.println("Sonata ∏ÿ√‰¥œ¥Ÿ.");
+	}
+
+	@Override
+	protected void turnOff() {
+		
+	}
+
+}

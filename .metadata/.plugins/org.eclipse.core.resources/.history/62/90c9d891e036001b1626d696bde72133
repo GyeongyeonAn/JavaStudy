@@ -1,0 +1,10 @@
+package generic;
+
+public class GenericPrinterTest {
+
+	public static void main(String[] args) {
+
+		GenericPrinterTest<Powder> powderPrinter = new GenericPrinterTest<>()
+	}
+
+}

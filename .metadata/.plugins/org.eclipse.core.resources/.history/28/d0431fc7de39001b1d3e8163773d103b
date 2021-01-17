@@ -1,0 +1,16 @@
+package thread;
+
+class MyThread extends Thread{
+	
+	public void run() {
+		
+	}
+}
+
+public class ThreadTest {
+	
+	public static void main(String[] args) {
+
+	}
+
+}

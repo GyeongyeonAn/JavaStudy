@@ -1,0 +1,15 @@
+package innerclass;
+
+class Outer {
+	
+	Runnable = getRunnable(){
+		
+	}
+}
+
+public class LocalInnerClassTest {
+
+	public static void main(String[] args) {
+		
+	}
+}

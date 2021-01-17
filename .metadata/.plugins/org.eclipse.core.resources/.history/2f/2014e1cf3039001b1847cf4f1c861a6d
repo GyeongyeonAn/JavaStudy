@@ -1,0 +1,10 @@
+package stream.reader;
+
+public class FileWriterTest {
+
+	public static void main(String[] args) {
+
+		FileWriter fw = new FileWriter();
+	}
+
+}

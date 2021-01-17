@@ -1,0 +1,31 @@
+package stream.serialization;
+
+import java.io.FileOutputStream;
+
+class Person {
+	String name;
+	String jop;
+	
+	public Person(String name, String jop) {
+		this.name = name;
+		this.jop = jop;
+	}
+	
+	public String toString() {
+		return name + ", " + jop;
+	}
+	
+}
+
+public class SerializationTest {
+
+	public static void main(String[] args) {
+
+		Person personLee = new Person("이순신", "엔지니어");
+		Person personKim = new Person("김유신", "선생님");
+		
+		try(FileOutputStream fos = new FileOutputStream("serial.dat");)
+		
+	}
+
+}

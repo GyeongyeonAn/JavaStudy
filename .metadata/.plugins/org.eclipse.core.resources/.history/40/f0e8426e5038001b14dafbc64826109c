@@ -1,0 +1,13 @@
+package chapter12;
+
+public class TravelTest {
+
+	public static void main(String[] args) {
+
+		TravelCustomer customerLee = new TravelCustomer("ÀÌ¼ø½Å", 40, 100);
+		TravelCustomer customerKim = new TravelCustomer("±èÀ¯½Å", 20, 100);
+		TravelCustomer customerHong = new TravelCustomer("È«±æµ¿", 13, 50);
+		
+	}
+
+}

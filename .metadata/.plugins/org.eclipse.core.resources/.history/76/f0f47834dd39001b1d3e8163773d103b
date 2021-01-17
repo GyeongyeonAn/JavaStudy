@@ -1,0 +1,9 @@
+package stream.coffee;
+
+public class EtiopiaAmericano {
+
+	@Override
+	public void brewing() {
+		System.out.print(" KenyaAmericano ");
+	}
+}

@@ -1,0 +1,14 @@
+package stream.decorator;
+
+import java.io.DataOutputStream;
+import java.io.FileOutputStream;
+
+public class DataStreamTest {
+
+	public static void main(String[] args) {
+
+		FileOutputStream fos = new FileOutputStream("data.txt");
+		DataOutputStream dos = new DataOutputStream(fos)
+	}
+
+}

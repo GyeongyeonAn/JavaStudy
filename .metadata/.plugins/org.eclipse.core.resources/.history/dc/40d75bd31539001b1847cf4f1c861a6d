@@ -1,0 +1,36 @@
+package exception;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+public class ExceptionTest {
+
+	public static void main(String[] args) {
+
+		FileInputStream fis = null;
+		
+		try {
+			
+			fis = new FileInputStream("a.txt");
+			
+		} catch (FileNotFoundException e) {
+			
+			System.out.println(e);
+			return;
+			
+		} finally {
+			try {
+				fis.close();
+				System.out.println("finally");
+			} catch (Exception e) {
+				System.out.println(e);
+			}
+		}
+		
+		// end가 안나오는 이유는 finally 처리 하고 catch에 있는 return문이 수행되었기 때문.
+		System.out.println("end");
+		
+		
+	}
+}

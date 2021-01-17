@@ -1,0 +1,12 @@
+package stream.reader;
+
+import java.io.FileInputStream;
+
+public class FileReaderTest {
+
+	public static void main(String[] args) {
+
+		FileInputStream
+	}
+
+}

@@ -1,0 +1,31 @@
+package object;
+
+class Student {
+	int studentID;
+	String studentName;
+	
+	public Student(int studentID, String studentName) {
+		this.studentID = studentID;
+		this.studentName = studentName;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		return studentID == studentID;
+	}
+	
+}
+
+public class EqualsTest {
+
+	public static void main(String[] args) {
+
+		Student Lee = new Student(100, "이순신");
+		Student Lee2 = Lee;
+		Student Shin = new Student(100, "이순신");
+		
+		 System.out.println(Lee == Shin);
+		 System.out.println(Lee.equals(Shin));
+	}
+
+}

@@ -1,0 +1,20 @@
+package stream.decorator;
+
+import java.io.DataOutputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+
+public class DataStreamTest {
+
+	public static void main(String[] args) {
+
+		try (FileOutputStream fos = new FileOutputStream();
+				;DataOutputStream dos = new DataOutputStream(fos)){
+			fos = new FileOutputStream("data.txt");
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+}

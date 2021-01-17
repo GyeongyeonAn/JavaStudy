@@ -1,0 +1,14 @@
+package stream.outputstream;
+
+public class FileOutputTest1 {
+
+	public static void main(String[] args) {
+
+		try(FileOutputStream fos = new FileOutputTest1("output.txt")){
+			
+		}catch(IOException e) {
+			System.out.println(e);
+		}
+	}
+
+}

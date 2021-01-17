@@ -1,0 +1,13 @@
+package chapter10;
+
+class MyDate {
+	
+}
+
+public class MyDateTest {
+
+	public static void main(String[] args) {
+
+	}
+
+}

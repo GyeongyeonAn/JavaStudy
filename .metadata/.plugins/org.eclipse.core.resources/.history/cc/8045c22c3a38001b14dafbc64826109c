@@ -1,0 +1,26 @@
+package innerclass;
+
+class Outer {
+	
+	int outNum = 100;
+	
+	Runnable getRunnable() {
+		
+		class MyRunnable implements Runnable {
+
+			@Override
+			public void run() {
+				
+			}
+		}
+		
+		return new MyRunnable();
+	}
+}
+
+public class LocalInnerClassTest {
+
+	public static void main(String[] args) {
+		
+	}
+}

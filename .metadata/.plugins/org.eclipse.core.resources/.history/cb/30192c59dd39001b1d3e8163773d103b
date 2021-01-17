@@ -1,0 +1,16 @@
+package stream.coffee;
+
+public abstract class Decorator extends Coffee{
+
+	Coffee coffee;
+	
+	public Decorator(Coffee coffee) {
+		super();
+		this.coffee = coffee;
+	}
+	@Override
+	public void brewing() {
+		
+	}
+
+}

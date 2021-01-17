@@ -1,0 +1,13 @@
+package exception;
+
+public class IDFormatTest {
+
+	public String userID;
+	
+	public static void main(String[] args) {
+
+		
+		
+	}
+
+}

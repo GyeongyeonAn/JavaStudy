@@ -1,0 +1,6 @@
+package chapter8;
+
+public abstract class Car {
+
+	protected abstract void start();
+}

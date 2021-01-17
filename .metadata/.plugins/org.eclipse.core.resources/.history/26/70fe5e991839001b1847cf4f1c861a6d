@@ -1,0 +1,11 @@
+package exception;
+
+public class ThrowsException {
+
+	public Class loadClass(String fileName)
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

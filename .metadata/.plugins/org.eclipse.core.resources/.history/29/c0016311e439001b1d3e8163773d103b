@@ -1,0 +1,25 @@
+package thread;
+
+public class JoinTest extends Thread {
+
+	int start;
+	int end;
+	int total;
+	
+	public JoinTest(int start, int end) {
+		this.start = start;
+		this.end = end;
+	}
+	
+	public void run() {
+		int i;
+		for(i=start; i<=end; i++) {
+			
+		}
+	}
+	
+	public static void main(String[] args) {
+
+	}
+
+}

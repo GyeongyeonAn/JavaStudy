@@ -1,0 +1,10 @@
+package collection.set;
+
+public class HashSetTest {
+
+	public static void main(String[] args) {
+
+		HashSet<String> set = new HashSet<String>();
+	}
+
+}

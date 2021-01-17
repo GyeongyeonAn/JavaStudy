@@ -1,0 +1,12 @@
+package object;
+
+public class ToStringTest {
+
+class Book
+	
+	public static void main(String[] args) {
+
+		Object 
+	}
+
+}

@@ -1,0 +1,11 @@
+package stream;
+
+public class ReduceTest {
+
+	public static void main(String[] args) {
+
+		String[] greetings = {"æ»≥Á«œººø‰~~~", "Hello", "Good morning", "π›∞©Ω¿¥œ¥Ÿ."};
+		
+	}
+
+}

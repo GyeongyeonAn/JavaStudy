@@ -1,0 +1,23 @@
+package stream.serialization;
+
+class Person {
+	String name;
+	String jop;
+	
+	public Person(String name, String jop) {
+		this.name = name;
+		this.jop = jop;
+	}
+	
+	
+}
+
+public class SerializationTest {
+
+	public static void main(String[] args) {
+
+		
+		
+	}
+
+}

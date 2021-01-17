@@ -1,0 +1,25 @@
+package stream.inputstream;
+
+import java.io.IOException;
+
+import jdk.internal.org.jline.utils.InputStreamReader;
+
+public class SystemInTest2 {
+
+	public static void main(String[] args) {
+
+		System.out.println("ют╥б : ");
+		
+		try {
+			int i;
+			InputStreamReader isr = new InputStreamReader(System.in);
+			while((i = isr.in.read()) != '\n') {
+				System.out.print((char)i);
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+	}
+
+}

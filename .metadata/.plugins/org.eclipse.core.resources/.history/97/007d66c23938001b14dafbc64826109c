@@ -1,0 +1,12 @@
+package innerclass;
+
+class Outer {
+	
+}
+
+public class LocalInnerClassTest {
+
+	public static void main(String[] args) {
+		
+	}
+}

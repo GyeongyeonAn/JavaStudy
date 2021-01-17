@@ -1,0 +1,7 @@
+package string;
+
+public class StringTest2 {
+
+	String java = new String("java");
+	String android = new String("android");
+}

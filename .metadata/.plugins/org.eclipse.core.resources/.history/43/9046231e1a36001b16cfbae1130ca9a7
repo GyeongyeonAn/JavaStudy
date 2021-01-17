@@ -1,0 +1,20 @@
+package object;
+
+public class ToStringTest {
+
+class Book {
+	String title;
+	String author;
+	
+	public Book(String title, String author) {
+		this.title = title;
+		this.author = author;
+	}
+}
+	
+	public static void main(String[] args) {
+
+		Book book = new Book("토지", "박경리");
+	}
+
+}

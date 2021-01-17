@@ -1,0 +1,6 @@
+package generic;
+
+public class GenericPrinter<T> {
+
+	private T material;
+}

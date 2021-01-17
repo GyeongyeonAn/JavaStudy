@@ -1,0 +1,14 @@
+package thread;
+
+public class TerminateThread {
+
+	private boolean flag = false;
+	int i;
+	
+	public void run() {
+	
+	public static void main(String[] args) {
+
+	}
+
+}

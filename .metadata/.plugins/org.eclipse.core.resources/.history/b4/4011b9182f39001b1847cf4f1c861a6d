@@ -1,0 +1,16 @@
+package stream.reader;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+public class FileReaderTest {
+
+	public static void main(String[] args) throws FileNotFoundException {
+
+		FileInputStream fis = new FileInputStream("reader.txt");
+		int i;
+		while((i = fis.read()) != -1)
+		
+	}
+
+}
